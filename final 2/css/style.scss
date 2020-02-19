@@ -1,0 +1,67 @@
+
+.header{
+
+    a{
+        margin: 7px;
+        border: none;
+        &:hover{
+            background-color: red;
+        }
+    }
+}
+
+
+
+.imgs{
+    background-image: url(https://quattro.true-emotions.studio/wp-content/uploads/2018/11/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 12rem 0;
+}
+
+.Our-team{
+   .team{
+       &:hover{
+           background-color: violet;
+       }
+       img{
+           background-color:violet;
+          
+           padding: 25px;
+       }
+       text-align: center;
+       border: 2px solid;
+       color: black;
+       i{
+           margin: 7px;
+       }
+   }
+}
+.videos{
+    background-color: black;
+}
+
+
+.shops{
+    .shop{
+        
+        border: 1px solid;
+        .p1{
+            overflow: hidden;
+            border: 1px solid;
+          &:hover{
+              background-color: cadetblue;
+              overflow: visible;
+          }
+        }
+    }
+}
+
+
+.future{
+    
+    background-image: url(https://quattro.true-emotions.studio/wp-content/uploads/2019/07/bg3.jpg?id=1919);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 18px 16px;
+}
